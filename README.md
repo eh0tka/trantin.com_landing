@@ -16,11 +16,11 @@ Requires Node.js 22.13 or later. Run `npm install`, then `npm run dev`. Build wi
 
 ## Deployment
 
-Production is served by the existing nginx configuration from `/var/www/trantin.com_static` on the `trantin` SSH host. The old WordPress files and historical URLs are retained.
+Production is served by the existing nginx configuration from `/var/www/trantin.com_static` on the `trantin` SSH host. Only the new static release is served; legacy files and historical URLs are removed from this web root after a timestamped backup outside the public directory.
 
 Make all changes and builds locally. Refresh `site/` from the reviewed `dist/client/` export, commit, and push. The server checkout is `/var/www/trantin.com_landing-src` and is a read/deploy target only.
 
-Before every deployment, inspect the server checkout for changes, obtain a fast-forward-only update, and back up the existing web root. Copy the static assets from `site/` into the web root and replace `index.html` last, atomically. Preserve unrelated historical files. Never edit tracked source on the server. Verify the live HTML and assets after deployment.
+Before every deployment, inspect the server checkout for changes, obtain a fast-forward-only update, and back up the existing web root. Stage the public files from `site/` (`index.html`, `404.html`, `index.rsc`, `_next/`, `portrait.png`, `favicon.svg`), then sync the reviewed release with deletion of obsolete files and delayed updates. Do not publish build manifests or dotfiles. The deletion scope is this web root only. Never edit tracked source on the server. Verify the live HTML and assets after deployment.
 
 The local Cheburashka experiment is separate and is not included in this release.
 
