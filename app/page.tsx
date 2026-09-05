@@ -15,7 +15,7 @@ export default function Home() {
             <p className="eyebrow">ENGINEER. ENTREPRENEUR. ANGEL INVESTOR.</p>
           <figure className="portrait-note">
             <img src="/portrait.png" alt="Anton Trantin smiling" width="250" height="250" fetchPriority="high" />
-            <figcaption>Hi, I’m Anton.</figcaption>
+            <figcaption>Hi, I’m Antosha.</figcaption>
           </figure>
             <h1 id="intro-title">For the joy<br /><em>of making.</em></h1>
             <p className="intro">I build software, products, and sometimes companies. Some experiments fall apart. Others find a life of their own. I keep making things because I love the process—and seeing what they become.</p>
