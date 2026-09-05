@@ -20,9 +20,9 @@ Production is served by the existing nginx configuration from `/var/www/trantin.
 
 Make all changes and builds locally. Refresh `site/` from the reviewed `dist/client/` export, commit, and push. The server checkout is `/var/www/trantin.com_landing-src` and is a read/deploy target only.
 
-Before every deployment, inspect the server checkout for changes, obtain a fast-forward-only update, and back up the existing web root. Stage the public files from `site/` (`index.html`, `404.html`, `index.rsc`, `_next/`, `portrait.png`, `favicon.svg`), then sync the reviewed release with deletion of obsolete files and delayed updates. Do not publish build manifests or dotfiles. The deletion scope is this web root only. Never edit tracked source on the server. Verify the live HTML and assets after deployment.
+Before every deployment, inspect the server checkout for changes, obtain a fast-forward-only update, and back up the existing web root. Stage the public files from `site/` (`index.html`, `404.html`, `index.rsc`, `_next/`, `portrait.png`, `favicon.svg`, `assets/`), then sync the reviewed release with deletion of obsolete files and delayed updates. Do not publish build manifests or dotfiles. The deletion scope is this web root only. Never edit tracked source on the server. Verify the live HTML and assets after deployment.
 
-The local Cheburashka experiment is separate and is not included in this release.
+The approved Cheburashka interlude is included at `#orange-lab`. It plays once on entry and supports replay and reduced motion. Artwork was generated with ImageGen, background-cleaned by Anton, and exported as four transparent WebP sprites in `public/assets/`. The standalone local experiment remains separate.
 
 ## Content provenance
 

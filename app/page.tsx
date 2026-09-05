@@ -1,4 +1,5 @@
 import TimelineMotion from './timeline-motion';
+import OrangeInterlude from './orange-interlude';
 
 export default function Home() {
   return (
@@ -55,6 +56,7 @@ export default function Home() {
           <h2 id="closing-title">Dozens of experiments that didn’t work out.<br />Two mini-exits. Several businesses still going.<br /><em>And more to build.</em></h2>
           <p className="build-loop"><span>build</span><b aria-hidden="true">→</b><span>fail</span><b aria-hidden="true">→</b><span>analyze</span><b aria-hidden="true">→</b><span>learn</span><b aria-hidden="true">→</b><span className="orange">repeat</span><span className="sr-only">. Repeat the cycle.</span></p>
         </section>
+        <OrangeInterlude />
       </main>
       <footer className="footer shell">
         <span className="footer-signature">Anton Trantin<span className="orange">.</span></span>
