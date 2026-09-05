@@ -1,5 +1,10 @@
 # Release notes
 
+## 0.3.0
+
+- A new introduction: digital craftsmanship as a way of life, for the joy of making.
+- A personal reflection on evolving tools and the experiments that endure.
+
 ## 0.2.0
 
 - A playful Cheburashka interlude with orange juggling, a tumble, and one more try.

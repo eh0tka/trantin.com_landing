@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <a className="skip-link" href="#story">Skip to the story</a>
       <header className="masthead shell">
-        <span className="wordmark">Anton Trantin<span className="orange">.</span></span>
+        <span className="wordmark">Anton Trantin<span className="orange">.</span><span className="craft-byline">Digital Craftsman</span></span>
         <span className="masthead-note">A WORK IN PROGRESS, SINCE 2003</span>
       </header>
       <main>
@@ -17,8 +17,8 @@ export default function Home() {
             <img src="/portrait.png" alt="Anton Trantin smiling" width="250" height="250" fetchPriority="high" />
             <figcaption>Hi, I’m Anton.</figcaption>
           </figure>
-            <h1 id="intro-title">Still<br /><em>building.</em></h1>
-            <p className="intro">I started writing software for satellite ground stations in 2006. Since then, I’ve built products, started businesses, closed some, and kept learning.</p>
+            <h1 id="intro-title">For the joy<br /><em>of making.</em></h1>
+            <p className="intro">I build software, products, and sometimes companies. Some experiments fall apart. Others find a life of their own. I keep making things because I love the process—and seeing what they become.</p>
             <a className="story-link" href="#story">A few chapters along the way <span aria-hidden="true">↓</span></a>
           </div>
 
@@ -48,12 +48,12 @@ export default function Home() {
           </article>
           <article className="chapter chapter-now">
             <div className="chapter-date">2025–present<span className="chapter-index"><span className="now-dot" />06 / STILL BUILDING</span></div>
-            <div className="chapter-body"><h2>Same curiosity.<br /><em>New possibilities.</em></h2><p>Since 2025, I’ve been building an AI-centric company and AI-centric products. Agents are part of how we work every day, alongside a team of five people.</p><p>We currently run ten live products, with five million daily active users—and the audience keeps growing. Everything is built in-house. No contractors.</p><dl className="current-metrics"><div><dt>Live products</dt><dd>10</dd></div><div><dt>Daily active users</dt><dd>5M</dd></div><div><dt>People, fully in-house</dt><dd>5</dd></div></dl><p className="metric-caption">The team today. The next chapter is already underway.</p></div>
+            <div className="chapter-body"><h2>Same curiosity.<br /><em>New possibilities.</em></h2><p>Since 2025, I’ve been building an AI-centric company and AI-centric products. Agents are part of how we work every day, alongside a team of five people.</p><p>The tools have changed—from C++ and assembly to AI agents. The craft still means deciding what’s worth making, caring about the details, and bringing it into the world.</p><p>We currently run ten live products, with five million daily active users—and the audience keeps growing. Everything is built in-house. No contractors.</p><dl className="current-metrics"><div><dt>Live products</dt><dd>10</dd></div><div><dt>Daily active users</dt><dd>5M</dd></div><div><dt>People, fully in-house</dt><dd>5</dd></div></dl><p className="metric-caption">The team today. The next chapter is already underway.</p></div>
           </article>
         </section>
         <section className="closing shell" aria-labelledby="closing-title">
           <p className="eyebrow">NOT A STRAIGHT LINE. STILL A GOOD JOURNEY.</p>
-          <h2 id="closing-title">Dozens of experiments that didn’t work out.<br />Two mini-exits. Several businesses still going.<br /><em>And more to build.</em></h2>
+          <h2 id="closing-title">Dozens of experiments. Two mini-exits.<br /> Some things broke. Some are still growing.</h2><p className="craft-way">Making things has become a way of life.</p><p className="craft-signature">Still building.</p>
           <p className="build-loop"><span>build</span><b aria-hidden="true">→</b><span>fail</span><b aria-hidden="true">→</b><span>analyze</span><b aria-hidden="true">→</b><span>learn</span><b aria-hidden="true">→</b><span className="orange">repeat</span><span className="sr-only">. Repeat the cycle.</span></p>
         </section>
         <OrangeInterlude />

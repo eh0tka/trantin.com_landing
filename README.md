@@ -1,4 +1,4 @@
-# Anton Trantin — Still building.
+# Anton Trantin — Digital Craftsman
 
 A single-page personal website with a progressively enhanced timeline. Static content, one portrait, and no database, analytics, contact forms, or remote content feeds.
 
