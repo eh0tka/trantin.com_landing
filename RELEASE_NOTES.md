@@ -1,5 +1,9 @@
 # Release notes
 
+## 0.4.0
+
+- 1Buck Apps in the current chapter: private everyday apps made for the soul, with a link to antosha.app.
+
 ## 0.3.0
 
 - A new introduction: digital craftsmanship as a way of life, for the joy of making.
